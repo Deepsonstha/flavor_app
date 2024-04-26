@@ -71,11 +71,9 @@ productFlavors {
 
 6.  ## In app/src/main/res/values/ add strings.xml file
 
+    ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <resources>
-        <string name="app_name">Default App Name</string>
+       <string name="app_name">Default App Name</string>
     </resources>
-
-```
-
-```
+    ```
