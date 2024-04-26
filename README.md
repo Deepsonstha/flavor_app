@@ -101,6 +101,19 @@ A new Flutter project.
     </resources>
     ```
 
-```
+7.  # For changing laucher icon
 
-```
+    - make saperate flutter laucher icon yaml in your root project
+    - give path of assets icon in pubspec.yaml
+
+
+    ## example
+
+    - flutter_laucher_icons-production.yaml // should user -production in name
+
+    - flutter_laucher_icons-development.yaml // should user -development in name
+
+    flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/app_icons/2.png"
