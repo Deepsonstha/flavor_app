@@ -58,10 +58,14 @@ productFlavors {
 
     - In strings.xml file add
 
+    ````xml
      <?xml version="1.0" encoding="utf-8"?>
-      <resources>
-          <string name="app_name">Development One</string>
-      </resources>
+    <resources>
+        <string name="app_name">Development One</string>
+    </resources>
+    ```xml
+
+    ````
 
 5.  ## In app/src/main/AndroidManifest.xml change this
 
@@ -73,3 +77,7 @@ productFlavors {
     <resources>
         <string name="app_name">Default App Name</string>
     </resources>
+
+```
+
+```
