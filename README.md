@@ -16,13 +16,27 @@ A new Flutter project.
 ## example
 
 ```json
-{
-	"name": "production",
-	"request": "launch",
-	"type": "dart",
-	"program": "lib/main_production.dart",
-	"args": ["--flavor", "production", "--target", "lib/main_production.dart"]
-}
+"configurations": [
+		{
+			"name": "production",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_production.dart",
+			"args": ["--flavor", "production", "--target", "lib/main_production.dart"]
+		},
+		{
+			"name": "development",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_development.dart",
+			"args": [
+				"--flavor",
+				"development",
+				"--target",
+				"lib/main_development.dart"
+			]
+		}
+	]
 ```
 
 3. ## In app/build.gradle add different flavors
