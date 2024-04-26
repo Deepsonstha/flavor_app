@@ -27,6 +27,7 @@ A new Flutter project.
 
 ## example
 
+````gradle
 flavorDimensions "app"
 productFlavors {
 
@@ -83,3 +84,4 @@ productFlavors {
        <string name="app_name">Default App Name</string>
     </resources>
     ```
+````
