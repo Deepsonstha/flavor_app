@@ -103,15 +103,17 @@ A new Flutter project.
 
 7.  # For changing laucher icon
 
+    - download flutter launcher icon from pub.dev
+
     - make saperate flutter laucher icon yaml in your root project
     - give path of assets icon in pubspec.yaml
-
 
     ## example
 
     - flutter_laucher_icons-production.yaml // should user -production in name
 
     - flutter_laucher_icons-development.yaml // should user -development in name
+    - add below code
 
     flutter_icons:
     android: true
