@@ -53,17 +53,23 @@ productFlavors {
     - main folder (by default)
     - profile folder (by default)
 
-    - development/res/values/strings.xml
-    - production/res/values/strings.xml
+    - development/res/values/strings.xml add this code
 
-    - In strings.xml file add
+      ```xml
+       <?xml version="1.0" encoding="utf-8"?>
+      <resources>
+          <string name="app_name">Development App</string>
+      </resources>
+      ```
 
-    ```xml
-     <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <string name="app_name">Development One</string>
-    </resources>
-    ```
+    - production/res/values/strings.xml add this code
+
+          ```xml
+
+       <?xml version="1.0" encoding="utf-8"?>
+      <resources>
+          <string name="app_name">Production App</string>
+      </resources>
 
 5.  ## In app/src/main/AndroidManifest.xml change this
 
