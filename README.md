@@ -119,3 +119,5 @@ A new Flutter project.
     android: true
     ios: true
     image_path: "assets/app_icons/2.png"
+
+    flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons*
