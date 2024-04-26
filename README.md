@@ -27,7 +27,6 @@ A new Flutter project.
 
 ## example
 
-    ```gradle
     android {
         flavorDimensions "app"
         productFlavors {
@@ -46,7 +45,6 @@ A new Flutter project.
             }
         }
     }
-    ```
 
 4.  ## In app/src add different folders for different flavors
 
@@ -86,4 +84,7 @@ A new Flutter project.
        <string name="app_name">Default App Name</string>
     </resources>
     ```
-````
+
+```
+
+```
