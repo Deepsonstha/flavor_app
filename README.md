@@ -27,24 +27,26 @@ A new Flutter project.
 
 ## example
 
-````gradle
-flavorDimensions "app"
-productFlavors {
+    ```gradle
+    android {
+        flavorDimensions "app"
+        productFlavors {
+            production {
+                dimension "app"
+                applicationId "com.production.flavor_app.prod"
+                versionCode 1
+                versionName "1.0"
+            }
 
-        production {
-            dimension "app"
-            applicationId "com.production.flavor_app.prod"
-            versionCode 1
-            versionName "1.0"
-        }
-
-        development {
-            dimension "app"
-            applicationId "com.development.flavor_app.dev"
-            versionCode 1
-            versionName "1.0"
+            development {
+                dimension "app"
+                applicationId "com.development.flavor_app.dev"
+                versionCode 1
+                versionName "1.0"
+            }
         }
     }
+    ```
 
 4.  ## In app/src add different folders for different flavors
 
